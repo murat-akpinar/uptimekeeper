@@ -5,7 +5,7 @@
 Aşağıdaki komut ile script'e çalıştırma izni verin:
 
 ```bash
-chmod +x /root/uptimekeeper.sh
+chmod +x /root/uptimekeeper/uptimekeeper.sh
 ```
 
 ---
@@ -15,7 +15,7 @@ chmod +x /root/uptimekeeper.sh
 `crontab -e` komutunu çalıştırarak crontab dosyasına aşağıdaki satırı ekleyin. Bu, script'in her 5 dakikada bir çalışmasını sağlar:
 
 ```bash
-*/5 * * * * /root/uptimekeeper.sh
+*/5 * * * * /root/uptimekeeper/uptimekeeper.sh
 ```
 
 ---
