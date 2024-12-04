@@ -1,5 +1,4 @@
 # uptimekeeper
----
 
 ## Adım 2: Script'e Çalıştırma İzni Verin
 
